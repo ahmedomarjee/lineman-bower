@@ -1,18 +1,24 @@
 {
   "name": "lineman-bower",
   "description": "A Bower plugin for Lineman",
-  "version": "0.0.5",
-  "homepage": "https://github.com/linemanjs/lineman-bower",
+  "version": "0.0.6",
+  "homepage": "https://github.com/ahmedomarjee/lineman-bower",
   "author": {
     "name": "Justin Searls",
     "email": "justin@testdouble.com"
   },
+  "contributors": [
+    {
+      "name": "Ahmed Omarjee",
+      "email": "aomarjee@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/linemanjs/lineman-bower.git"
+    "url": "https://github.com/ahmedomarjee/lineman-bower.git"
   },
   "bugs": {
-    "url": "https://github.com/linemanjs/lineman-bower/issues"
+    "url": "https://github.com/ahmedomarjee/lineman-bower/issues"
   },
   "scripts": {
     "postinstall": "node script/postinstall.js"

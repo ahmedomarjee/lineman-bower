@@ -10,10 +10,6 @@ module.exports = (lineman) ->
     prependTasks:
       common: ["bower"].concat(app.prependTasks.common)
 
-    clean:
-      bower:
-        src: bowerDirectory()
-
     bower:
       install:
         options:
